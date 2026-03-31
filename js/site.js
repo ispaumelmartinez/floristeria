@@ -40,7 +40,7 @@
         items: [
           { name: 'Transporte especializado', price: 'desde 5 €', summary: 'Reparto de plantas y composiciones con franja horaria concertada. Embalaje reforzado para que lleguen en perfecto estado.', imgAlt: 'Transporte de plantas' },
           { name: 'Servicio de suscripción', price: '25 €/mes', summary: 'Ramo o composición cada mes con flores de temporada. Pausas y cambios de dirección sin complicaciones.', imgAlt: 'Suscripción floral' },
-          { name: 'Pack cumpleaños', price: '3,50 €', summary: 'Mini ramo o detalle floral listo para entregar. Tarjeta opcional. Pensado para celebraciones íntimas.', imgAlt: 'Pack cumpleaños' },
+          { name: 'Pack regalo', price: '3,50 €', summary: 'Mini ramo o detalle floral listo para entregar. Tarjeta opcional. Pensado para celebraciones íntimas.', imgAlt: 'Pack cumpleaños' },
           { name: 'Asesoramiento personalizado', price: 'a consultar', summary: 'Visita o videollamada para elegir plantas y estilos según tu espacio. Presupuesto claro sin compromiso.', imgAlt: 'Asesoramiento floral' },
         ],
       },
@@ -109,7 +109,7 @@
         items: [
           { name: 'Transport especialitzat', price: 'des de 5 €', summary: 'Repartiment de plantes i composicions amb franja horària concertada. Embalatge reforçat perquè arribin en perfecte estat.', imgAlt: 'Transport de plantes' },
           { name: 'Servei de subscripció', price: '25 €/mes', summary: 'Ram o composició cada mes amb flors de temporada. Pauses i canvis d’adreça sense complicacions.', imgAlt: 'Subscripció floral' },
-          { name: 'Pack aniversari', price: '3,50 €', summary: 'Mini ram o detall floral llest per lliurar. Targeta opcional. Pensat per a celebracions íntimes.', imgAlt: 'Pack aniversari' },
+          { name: 'Pack regal', price: '3,50 €', summary: 'Mini ram o detall floral llest per lliurar. Targeta opcional. Pensat per a celebracions íntimes.', imgAlt: 'Pack aniversari' },
           { name: 'Assessorament personalitzat', price: 'a consultar', summary: 'Visita o videotrucada per triar plantes i estil segons el teu espai. Pressupost clar sense compromís.', imgAlt: 'Assessorament floral' },
         ],
       },
@@ -178,7 +178,7 @@
         items: [
           { name: 'Specialist delivery', price: 'from €5', summary: 'Delivery of plants and arrangements in an agreed time window. Reinforced packaging so they arrive in perfect condition.', imgAlt: 'Plant delivery' },
           { name: 'Subscription service', price: '€25/month', summary: 'Bouquet or arrangement every month with seasonal flowers. Easy pauses and address changes.', imgAlt: 'Flower subscription' },
-          { name: 'Birthday pack', price: '€3.50', summary: 'Mini bouquet or floral detail ready to hand over. Optional card. Suited to small celebrations.', imgAlt: 'Birthday pack' },
+          { name: 'Gift pack', price: '€3.50', summary: 'Mini bouquet or floral detail ready to hand over. Optional card. Suited to small celebrations.', imgAlt: 'Birthday pack' },
           { name: 'Personalised advice', price: 'on request', summary: 'Visit or video call to choose plants and style for your space. Clear quote, no obligation.', imgAlt: 'Floral advice' },
         ],
       },
