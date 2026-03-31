@@ -1,0 +1,30 @@
+Vamos a hacer una pagina web.
+Esta web solo tiene que tener una pagina principal.
+El titulo tiene que ser el nombre de la pagina.
+La pagina principal tiene que tener un header, un footer y un contenido.
+
+
+
+El header tiene que tener un titulo, un subtitulo y un menu de navegacion con el logo de la pagina a la izquierda y los enlaces a las diferentes secciones de la pagina a la derecha. el menú tiene que ser stikky, cuando se hace scrill este se tiene que mantener en la parte superior de la pagina.
+
+El contenido se tiene que dividir en diferentes secciones.
+
+La primera sección es Acerca de nosotros. Esta tiene que tener titulo, texto e imagen.
+La segunda sección es Nuestros productos. Esta tiene que ser una lista de productos. Cada producto tiene que tener un nombre, un precio y una imagen. Tiene que tener algun tipo de desplegable o algo para enseñar información detallada del producto (texto).
+La tercera sección es Nuestros servicios. Esta tiene que ser una lista de servicios. Cada servicio tiene que tener un nombre, un precio y una imagen. Tiene que tener algun tipo de desplegable o algo para enseñar información detallada del servicio (texto).
+La cuarta sección es Visita comercial. Esta tiene que tener un titulo, un subtitulo, un texto y una imagen.
+La quinta sección es Nuestros proyectos o inspiración. Es una galería de imagenes.
+La sexta sección es Opiniones. Esta tiene que tener las reseñas de nuestros clientes.
+El footer tiene que tener la infomación de contacto. La infomación de contacto tiene que ser responsive. La información de contacto va a ser email, telefono, direccion y horario de atencion.
+
+
+La pagina tiene que ser responsive.
+La pagina tiene que ser diseñada con bootstrap.
+La pagina tiene que ser diseñada con css.
+La pagina tiene que ser diseñada con html.
+
+Las imagenes tienen que ser responsive.
+Las imagenes tienen que tener un borde redondeado.
+Las imagenes tienen que tener un efecto de hover.
+Las imagenes tienen que tener un efecto de zoom muy levemente cuando se pasa el cursor por encima.
+

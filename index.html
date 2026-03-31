@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Taller del Pétalo — Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-sitio fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio">
+          <img src="./images/logo/logo.png" alt="Logo El Taller del Pétalo" width="60" height="60" class="logo-header img-fluid">
+          <span class="d-flex flex-column lh-sm text-start">
+            <span class="fw-bold navbar-brand-text">El Taller del Pétalo</span>
+            <small class="fw-normal navbar-brand-sub" data-i18n-brand-sub>Floristería B2B</small>
+          </span>
+        </a>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-lg-end align-items-lg-center flex-lg-grow-1" id="menuPrincipal">
+          <ul class="navbar-nav gap-lg-1">
+            <li class="nav-item"><a class="nav-link nav-link-scroll" href="#acerca" data-i18n-nav="acerca">Acerca de nosotros</a></li>
+            <li class="nav-item"><a class="nav-link nav-link-scroll" href="#productos" data-i18n-nav="productos">Productos</a></li>
+            <li class="nav-item"><a class="nav-link nav-link-scroll" href="#servicios" data-i18n-nav="servicios">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link nav-link-scroll" href="#visita" data-i18n-nav="visita">Visita comercial</a></li>
+            <li class="nav-item"><a class="nav-link nav-link-scroll" href="#proyectos" data-i18n-nav="proyectos">Proyectos</a></li>
+            <li class="nav-item"><a class="nav-link nav-link-scroll" href="#opiniones" data-i18n-nav="opiniones">Opiniones</a></li>
+          </ul>
+        </div>
+        <div class="d-flex align-items-center gap-2 flex-shrink-0 lang-bar mt-3 mt-lg-0 pt-3 pt-lg-0 border-top border-secondary border-opacity-25">
+          <span class="visually-hidden" id="langLabel">Idioma</span>
+          <div class="btn-group btn-group-sm" role="group" aria-labelledby="langLabel">
+            <button type="button" class="btn lang-btn active" data-lang="es" aria-pressed="true">ES</button>
+            <button type="button" class="btn lang-btn" data-lang="ca" aria-pressed="false">CA</button>
+            <button type="button" class="btn lang-btn" data-lang="en" aria-pressed="false">EN</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="inicio" class="main-offset">
+    <section id="acerca" class="seccion-acerca-hero py-5" aria-labelledby="titulo-acerca">
+      <div class="container position-relative">
+        <h1 id="titulo-acerca" class="display-5 fw-bold mb-4 titulo-acerca-hero" data-i18n="acerca.h1">Acerca de nosotros</h1>
+        <div class="acerca-hero-text">
+          <p class="lead mb-3 texto-acerca-lead" data-i18n="acerca.lead">Somos un equipo que une oficio, materiales de calidad y criterio de diseño para productos y espacios memorables.</p>
+          <p class="mb-0 texto-acerca-cuerpo" data-i18n="acerca.p">Trabajamos con talleres locales, plazos realistas y un proceso transparente: desde la primera idea hasta la entrega. Nos importa que cada pieza cuente una historia y encaje en el día a día de quien la usa.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="productos" class="py-5 bg-white">
+      <div class="container">
+        <h2 class="h1 fw-bold mb-4 titulo-seccion" data-i18n="productos.h2">Nuestros productos</h2>
+        <div class="row g-3 g-md-4">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <article class="card card-producto h-100 border-0 shadow-sm" data-product-index="0">
+              <div class="card-producto-media">
+                <img src="./images/productos/200x200/1-planta-mini.png" alt="Planta mini de escritorio" class="card-img-top img-contenido card-img-crop" data-field="img">
+              </div>
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-baseline gap-2 mb-2">
+                  <h3 class="h5 card-title mb-0 flex-grow-1 min-w-0" data-field="name">Planta mini de escritorio</h3>
+                  <p class="precio-producto mb-0 flex-shrink-0 text-end" data-field="price">9,90 €</p>
+                </div>
+                <p class="small mb-0 texto-cuerpo card-producto-resumen" data-field="summary">Planta pequeña de interior en maceta. Ideal para escritorio u oficina con luz indirecta; riego moderado y fácil cuidado.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <article class="card card-producto h-100 border-0 shadow-sm" data-product-index="1">
+              <div class="card-producto-media">
+                <img src="./images/productos/200x200/2-planta-grande.png" alt="Planta grande de recepción" class="card-img-top img-contenido card-img-crop" data-field="img">
+              </div>
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-baseline gap-2 mb-2">
+                  <h3 class="h5 card-title mb-0 flex-grow-1 min-w-0" data-field="name">Planta grande recepción</h3>
+                  <p class="precio-producto mb-0 flex-shrink-0 text-end" data-field="price">50 €</p>
+                </div>
+                <p class="small mb-0 texto-cuerpo card-producto-resumen" data-field="summary">Planta de gran formato para hall o recepción. Especies resistentes y bien presentadas para dar imagen profesional al espacio.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <article class="card card-producto h-100 border-0 shadow-sm" data-product-index="2">
+              <div class="card-producto-media">
+                <img src="./images/productos/200x200/3-rosa.png" alt="Rosa eterna" class="card-img-top img-contenido card-img-crop" data-field="img">
+              </div>
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-baseline gap-2 mb-2">
+                  <h3 class="h5 card-title mb-0 flex-grow-1 min-w-0" data-field="name">Rosa eterna</h3>
+                  <p class="precio-producto mb-0 flex-shrink-0 text-end" data-field="price">55 €</p>
+                </div>
+                <p class="small mb-0 texto-cuerpo card-producto-resumen" data-field="summary">Rosa natural estabilizada: conserva su aspecto sin agua ni mantenimiento diario. Presentación en caja o soporte, detalle elegante y duradero.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <article class="card card-producto h-100 border-0 shadow-sm" data-product-index="3">
+              <div class="card-producto-media">
+                <img src="./images/productos/200x200/4-centro.png" alt="Centro de mesa" class="card-img-top img-contenido card-img-crop" data-field="img">
+              </div>
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-baseline gap-2 mb-2">
+                  <h3 class="h5 card-title mb-0 flex-grow-1 min-w-0" data-field="name">Centro de mesa</h3>
+                  <p class="precio-producto mb-0 flex-shrink-0 text-end" data-field="price">45 €</p>
+                </div>
+                <p class="small mb-0 texto-cuerpo card-producto-resumen" data-field="summary">Composición floral para mesa de comedor o reunión. Flores y tonos de temporada, lista para sorprender en cualquier ocasión.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <article class="card card-producto h-100 border-0 shadow-sm" data-product-index="4">
+              <div class="card-producto-media">
+                <img src="./images/productos/200x200/5-ramo.png" alt="Ramo de flores de temporada" class="card-img-top img-contenido card-img-crop" data-field="img">
+              </div>
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-baseline gap-2 mb-2">
+                  <h3 class="h5 card-title mb-0 flex-grow-1 min-w-0" data-field="name">Ramo de flores de temporada</h3>
+                  <p class="precio-producto mb-0 flex-shrink-0 text-end" data-field="price">60 €</p>
+                </div>
+                <p class="small mb-0 texto-cuerpo card-producto-resumen" data-field="summary">Ramo elaborado con flores del momento y follaje seleccionado. Perfecto como regalo o para alegrar el hogar con color fresco.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <article class="card card-producto h-100 border-0 shadow-sm" data-product-index="5">
+              <div class="card-producto-media">
+                <img src="./images/productos/200x200/6-suscripcion.png" alt="Suscripción Fresh Monday" class="card-img-top img-contenido card-img-crop" data-field="img">
+              </div>
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-baseline gap-2 mb-2">
+                  <h3 class="h5 card-title mb-0 flex-grow-1 min-w-0" data-field="name">Suscripción "Fresh Monday"</h3>
+                  <p class="precio-producto mb-0 flex-shrink-0 text-end" data-field="price">200 €</p>
+                </div>
+                <p class="small mb-0 texto-cuerpo card-producto-resumen" data-field="summary">Flores frescas cada lunes en tu empresa u oficina: ramo o composición de temporada con entrega puntual y presentación cuidada.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <article class="card card-producto h-100 border-0 shadow-sm" data-product-index="6">
+              <div class="card-producto-media">
+                <img src="./images/productos/200x200/7-otro-evento.png" alt="Arreglo floral para eventos" class="card-img-top img-contenido card-img-crop" data-field="img">
+              </div>
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-baseline gap-2 mb-2">
+                  <h3 class="h5 card-title mb-0 flex-grow-1 min-w-0" data-field="name">Arreglo para eventos</h3>
+                  <p class="precio-producto mb-0 flex-shrink-0 text-end" data-field="price">a consultar</p>
+                </div>
+                <p class="small mb-0 texto-cuerpo card-producto-resumen" data-field="summary">Decoración floral a medida: centros, arcos o ambientación para bodas y eventos corporativos. Presupuesto según fecha, espacio y estilo.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="py-5 seccion-fondo">
+      <div class="container">
+        <h2 class="h1 fw-bold mb-4 titulo-seccion" data-i18n="servicios.h2">Nuestros servicios</h2>
+        <div class="row g-3 g-md-4 justify-content-center">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <article class="card card-producto h-100 border-0 shadow-sm" data-service-index="0" data-service-card>
+              <img src="./images/servicios/entrega.jpg" alt="" class="card-img-top img-contenido card-img-crop" data-field="img">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-baseline gap-2 mb-2">
+                  <h3 class="h5 card-title mb-0 flex-grow-1 min-w-0" data-field="name">Transporte especializado</h3>
+                  <p class="precio-servicio mb-0 flex-shrink-0 text-end" data-field="price">desde 5 €</p>
+                </div>
+                <p class="small mb-0 texto-cuerpo card-producto-resumen" data-field="summary">Reparto de plantas y composiciones con franja horaria concertada. Embalaje reforzado para que lleguen en perfecto estado.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <article class="card card-producto h-100 border-0 shadow-sm" data-service-index="1" data-service-card>
+              <img src="./images/servicios/alquiler.jpg" alt="" class="card-img-top img-contenido card-img-crop" data-field="img">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-baseline gap-2 mb-2">
+                  <h3 class="h5 card-title mb-0 flex-grow-1 min-w-0" data-field="name">Servicio de suscripción</h3>
+                  <p class="precio-servicio mb-0 flex-shrink-0 text-end" data-field="price">25 €/mes</p>
+                </div>
+                <p class="small mb-0 texto-cuerpo card-producto-resumen" data-field="summary">Ramo o composición cada mes con flores de temporada. Pausas y cambios de dirección sin complicaciones.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <article class="card card-producto h-100 border-0 shadow-sm" data-service-index="2" data-service-card>
+              <img src="./images/servicios/regalo.jpg" alt="" class="card-img-top img-contenido card-img-crop" data-field="img">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-baseline gap-2 mb-2">
+                  <h3 class="h5 card-title mb-0 flex-grow-1 min-w-0" data-field="name">Pack cumpleaños</h3>
+                  <p class="precio-servicio mb-0 flex-shrink-0 text-end" data-field="price">3,50 €</p>
+                </div>
+                <p class="small mb-0 texto-cuerpo card-producto-resumen" data-field="summary">Mini ramo o detalle floral listo para entregar. Tarjeta opcional. Pensado para celebraciones íntimas.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <article class="card card-producto h-100 border-0 shadow-sm" data-service-index="3" data-service-card>
+              <img src="./images/servicios/personalizado.jpg" alt="" class="card-img-top img-contenido card-img-crop" data-field="img">
+              <div class="card-body d-flex flex-column">
+                <div class="d-flex justify-content-between align-items-baseline gap-2 mb-2">
+                  <h3 class="h5 card-title mb-0 flex-grow-1 min-w-0" data-field="name">Asesoramiento personalizado</h3>
+                  <p class="precio-servicio mb-0 flex-shrink-0 text-end" data-field="price">a consultar</p>
+                </div>
+                <p class="small mb-0 texto-cuerpo card-producto-resumen" data-field="summary">Visita o videollamada para elegir plantas y estilos según tu espacio. Presupuesto claro sin compromiso.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="visita" class="py-5 bg-white">
+      <div class="container">
+        <h2 class="h1 fw-bold titulo-seccion" data-i18n="visita.h2">Visita comercial</h2>
+        <p class="lead mb-4 texto-secundario" data-i18n="visita.lead">Te abrimos las puertas del taller con cita previa</p>
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6 order-lg-2">
+            <img src="./images/contacto/cita.jpg" alt="Espacio comercial y taller" class="img-contenido w-100" data-i18n-alt="visita.img">
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <p class="mb-0 texto-cuerpo" data-i18n="visita.p">Reserva un hueco de martes a sábado y conoce procesos, acabados y catálogo en persona. Ideal para proyectos de hostelería, regalos corporativos o encargos especiales. Respondemos en menos de 48 h laborables y confirmamos disponibilidad por email.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="py-5 seccion-fondo">
+      <div class="container">
+        <h2 class="h1 fw-bold mb-4 titulo-seccion" data-i18n="proyectos.h2">Nuestros proyectos e inspiración</h2>
+        <div id="carouselProyectos" class="carousel slide carousel-proyectos-galeria" data-bs-ride="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row g-3 g-md-4 justify-content-center">
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://picsum.photos/seed/g1/600/400" alt="Proyecto 1" class="galeria-img w-100" data-proyecto-index="0">
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://picsum.photos/seed/g2/600/400" alt="Proyecto 2" class="galeria-img w-100" data-proyecto-index="1">
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://picsum.photos/seed/g3/600/400" alt="Proyecto 3" class="galeria-img w-100" data-proyecto-index="2">
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://picsum.photos/seed/g4/600/400" alt="Proyecto 4" class="galeria-img w-100" data-proyecto-index="3">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row g-3 g-md-4 justify-content-center">
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://picsum.photos/seed/g5/600/400" alt="Proyecto 5" class="galeria-img w-100" data-proyecto-index="4">
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://picsum.photos/seed/g6/600/400" alt="Proyecto 6" class="galeria-img w-100" data-proyecto-index="5">
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://picsum.photos/seed/g7/600/400" alt="Proyecto 7" class="galeria-img w-100" data-proyecto-index="6">
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://picsum.photos/seed/g8/600/400" alt="Proyecto 8" class="galeria-img w-100" data-proyecto-index="7">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row g-3 g-md-4 justify-content-center">
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://picsum.photos/seed/g9/600/400" alt="Proyecto 9" class="galeria-img w-100" data-proyecto-index="8">
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://picsum.photos/seed/g10/600/400" alt="Proyecto 10" class="galeria-img w-100" data-proyecto-index="9">
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://picsum.photos/seed/g11/600/400" alt="Proyecto 11" class="galeria-img w-100" data-proyecto-index="10">
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://picsum.photos/seed/g12/600/400" alt="Proyecto 12" class="galeria-img w-100" data-proyecto-index="11">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row g-3 g-md-4 justify-content-center">
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://picsum.photos/seed/g13/600/400" alt="Proyecto 13" class="galeria-img w-100" data-proyecto-index="12">
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://picsum.photos/seed/g14/600/400" alt="Proyecto 14" class="galeria-img w-100" data-proyecto-index="13">
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://picsum.photos/seed/g15/600/400" alt="Proyecto 15" class="galeria-img w-100" data-proyecto-index="14">
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://picsum.photos/seed/g16/600/400" alt="Proyecto 16" class="galeria-img w-100" data-proyecto-index="15">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev carousel-proyectos-ctrl" type="button" data-bs-target="#carouselProyectos" data-bs-slide="prev" data-i18n-carousel="prev" aria-label="Anterior">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next carousel-proyectos-ctrl" type="button" data-bs-target="#carouselProyectos" data-bs-slide="next" data-i18n-carousel="next" aria-label="Siguiente">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="opiniones" class="py-5 bg-white">
+      <div class="container">
+        <h2 class="h1 fw-bold mb-4 titulo-seccion" data-i18n="opiniones.h2">Opiniones</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm card-opinion" data-opinion-index="0">
+              <div class="card-body">
+                <p class="card-text texto-cuerpo" data-field="text">«Encargamos lámparas para la cafetería y quedaron espectaculares. Puntuales y muy profesionales.»</p>
+                <p class="mb-0 small texto-secundario" data-field="author">— Laura M., Barcelona</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm card-opinion" data-opinion-index="1">
+              <div class="card-body">
+                <p class="card-text texto-cuerpo" data-field="text">«El taller en grupo fue divertido y claro. Salí con mi propia pieza y ganas de repetir.»</p>
+                <p class="mb-0 small texto-secundario" data-field="author">— Diego R., Valencia</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm card-opinion" data-opinion-index="2">
+              <div class="card-body">
+                <p class="card-text texto-cuerpo" data-field="text">«Asesoría muy útil para nuestra reforma; ahorramos tiempo y acertamos con materiales.»</p>
+                <p class="mb-0 small texto-secundario" data-field="author">— Ana y Pedro, Madrid</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal fade" id="modalGaleriaProyectos" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-galeria modal-fullscreen-sm-down">
+      <div class="modal-content modal-galeria-lightbox border-0 bg-dark text-white shadow-none position-relative">
+        <button type="button" class="btn-close btn-close-white galeria-lightbox-cerrar" data-bs-dismiss="modal" data-i18n-lightbox-close aria-label="Cerrar"></button>
+        <div class="modal-body galeria-lightbox-body d-flex align-items-center justify-content-center flex-grow-1">
+          <div class="position-relative w-100 d-flex align-items-center justify-content-center galeria-lightbox-marco">
+            <button type="button" class="galeria-lightbox-flecha galeria-lightbox-prev" id="galeriaLightboxPrev" data-i18n-lightbox="prev" aria-label="Anterior">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <img id="galeriaLightboxImg" src="" alt="" class="img-fluid rounded-3 shadow galeria-lightbox-imagen">
+            <button type="button" class="galeria-lightbox-flecha galeria-lightbox-next" id="galeriaLightboxNext" data-i18n-lightbox="next" aria-label="Siguiente">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-sitio py-5 mt-auto">
+    <div class="container footer-contacto">
+      <h2 class="h5 mb-4 border-bottom pb-2 titulo-footer" data-i18n="footer.h2">Contacto</h2>
+      <div class="row g-4">
+        <div class="col-12 col-sm-6 col-lg-4">
+          <h3 class="h6 text-uppercase small etiqueta-footer" data-i18n="footer.email">Email</h3>
+          <p class="mb-0"><a href="mailto:reception@grup01c_afi_m11_aula01_2526s2.com">reception@grup01c_afi_m11_aula01_2526s2.com</a></p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <h3 class="h6 text-uppercase small etiqueta-footer" data-i18n="footer.address">Dirección</h3>
+          <p class="mb-0 texto-footer-linea">Av. Paral·lel 71-73<br>08004, Barcelona</p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <h3 class="h6 text-uppercase small etiqueta-footer" data-i18n="footer.hours">Horario de atención</h3>
+          <p class="mb-0 texto-footer-linea">Lun–Vie: 9:00–14:00 y 16:00–19:00<br>Sáb: 10:00–14:00</p>
+        </div>
+      </div>
+      <p class="small mt-4 mb-0 texto-footer-copy">© <span id="anio"></span> El Taller del Pétalo. <span data-i18n="footer.copy">Contenido de demostración.</span></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>

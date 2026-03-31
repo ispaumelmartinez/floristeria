@@ -1,0 +1,10 @@
+Queremos que en la pagina, el menú se mantenga en la parte superior pegada a la parte visible de la pantalla, es decir sea siempre visible.
+
+Necesito cambiar el apartado de productos y servicios. No van a ser lista, van a ser elementos "Cards" que se puedan desplegar para dar mas informacion. Pero el concepto es de productos, por lo tanto no será una lista. 
+Estos 2 apartados, serán muchos elementos, por lo tanto habrá una flecha con sentido derecha para pasar los elementos, y tambien a la izquierda para volver.
+
+Además habrá que tener la pagina en 3 idiomas diferentes: Español, Catalán e Inglés. El selector de idiomas estará en la parte superior a la izquierda del menú.
+
+El menú debe de marcar en que sección estoy este debe de ser de color #e0ceea.
+
+La paleta de colores de la pagian deben de ser #d2abea, #ffffff, #8d694e, #edefec, #56654f, #9eae98, #a18e7b, #e0ceea. No los tienes que poner todos, los que se vean mejor.
