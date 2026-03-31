@@ -40,7 +40,7 @@
         items: [
           { name: 'Transporte especializado', price: 'desde 5 €', summary: 'Reparto de plantas y composiciones con franja horaria concertada. Embalaje reforzado para que lleguen en perfecto estado.', imgAlt: 'Transporte de plantas' },
           { name: 'Servicio de suscripción', price: '25 €/mes', summary: 'Ramo o composición cada mes con flores de temporada. Pausas y cambios de dirección sin complicaciones.', imgAlt: 'Suscripción floral' },
-          { name: 'Pack regalo', price: '3,50 €', summary: 'Mini ramo o detalle floral listo para entregar. Tarjeta opcional. Pensado para celebraciones íntimas.', imgAlt: 'Pack cumpleaños' },
+          { name: 'Pack regalo', price: '3,50 €', summary: 'Mini ramo o detalle floral listo para entregar. Tarjeta opcional. Pensado para celebraciones íntimas.', imgAlt: 'Pack regalo' },
           { name: 'Asesoramiento personalizado', price: 'a consultar', summary: 'Visita o videollamada para elegir plantas y estilos según tu espacio. Presupuesto claro sin compromiso.', imgAlt: 'Asesoramiento floral' },
         ],
       },
