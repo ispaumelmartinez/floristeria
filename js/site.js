@@ -19,8 +19,8 @@
       },
       acerca: {
         h1: 'Acerca de nosotros',
-        lead: 'Somos un equipo que une oficio, materiales de calidad y criterio de diseño para productos y espacios memorables.',
-        p: 'Trabajamos con talleres locales, plazos realistas y un proceso transparente: desde la primera idea hasta la entrega. Nos importa que cada pieza cuente una historia y encaje en el día a día de quien la usa.',
+        lead: 'En El Taller del Pétalo creemos que los espacios profesionales también pueden tener alma. Nos apasiona acompañar a las empresas para que, a través de la artesanía floral, logren transmitir su verdadera esencia.',
+        p: 'No solo entregamos flores; cuidamos detalles. Seleccionamos cada tallo a mano y diseñamos con mimo cada composición, uniendo la calidez del trabajo artesanal con la puntualidad y el rigor que tu negocio necesita. Queremos ser tu aliado de confianza para que cada rincón de tu empresa cuente una historia de frescura y distinción. Hacemos que tu marca florezca.',
         imgAlt: 'Equipo y taller',
       },
       productos: {
@@ -88,9 +88,8 @@
       },
       acerca: {
         h1: 'Sobre nosaltres',
-        lead: 'El Taller del Pétalo és especialista en plantes, arranjaments florals i ornaments vegetals per a oficines, espais corporatius i esdeveniments.',
-        p: 'Creem ambients plens de vida, adaptant cada composició a l’estil i necessitats de cada espai. Oferim rams frescos setmanals, centres de taula i composicions personalitzades, així com altres solucions com rams de temporada i projectes a mida.',
-        p:  'Cada planta i flor aporta benestar i personalitat als espais de treball, combinant qualitat, creativitat i professionalitat.',
+        lead: 'A El Taller del Pétalo creiem que els espais professionals també poden tenir ànima. Ens apassiona acompanyar les empreses perquè, a través de l'artesania floral, aconsegueixin transmetre la seva vertadera essència.',
+        p: 'No només lliurem flors; cuidem els detalls. Seleccionem cada tija a mà i dissenyem amb mim cada composició, unint la calidesa del treball artesanal amb la puntualitat i el rigor que el teu negoci necessita. Volem ser el teu aliat de confiança perquè cada racó de la teva empresa expliqui una història de frescor i distinció. Fem que la teva marca floreixi.',
         imgAlt: 'Equip i taller',
       },
       productos: {
@@ -158,8 +157,8 @@
       },
       acerca: {
         h1: 'About us',
-        lead: 'We are a team that combines craft, quality materials and design judgement for memorable products and spaces.',
-        p: 'We work with local workshops, realistic timelines and a transparent process: from the first idea to delivery. We care that every piece tells a story and fits the daily life of those who use it.',
+        lead: 'At El Taller del Pétalo, we believe that professional spaces should also have a soul. We are passionate about partnering with businesses to help them express their true essence through the art of floral craftsmanship.',
+        p: 'We don’t just deliver flowers; we care for every detail. Every stem is hand-selected and every arrangement is thoughtfully designed, blending the warmth of artisanal work with the reliability and precision your business deserves. We want to be your trusted partner, ensuring every corner of your brand tells a story of freshness and distinction. Helping your brand bloom.',
         imgAlt: 'Team and workshop',
       },
       productos: {
