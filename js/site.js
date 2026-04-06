@@ -88,7 +88,7 @@
       },
       acerca: {
         h1: 'Sobre nosaltres',
-        lead: 'A El Taller del Pétalo creiem que els espais professionals també poden tenir ànima. Ens apassiona acompanyar les empreses perquè, a través de l'artesania floral, aconsegueixin transmetre la seva vertadera essència.',
+        lead: 'A El Taller del Pétalo creiem que els espais professionals també poden tenir ànima. Ens apassiona acompanyar les empreses perquè, a través de l\'artesania floral, aconsegueixin transmetre la seva vertadera essència.',
         p: 'No només lliurem flors; cuidem els detalls. Seleccionem cada tija a mà i dissenyem amb mim cada composició, unint la calidesa del treball artesanal amb la puntualitat i el rigor que el teu negoci necessita. Volem ser el teu aliat de confiança perquè cada racó de la teva empresa expliqui una història de frescor i distinció. Fem que la teva marca floreixi.',
         imgAlt: 'Equip i taller',
       },
