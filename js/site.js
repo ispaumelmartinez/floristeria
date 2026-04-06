@@ -88,8 +88,9 @@
       },
       acerca: {
         h1: 'Sobre nosaltres',
-        lead: 'Som un equip que uneix ofici, materials de qualitat i criteri de disseny per a productes i espais memorables.',
-        p: 'Treballem amb tallers locals, terminis realistes i un procés transparent: des de la primera idea fins al lliurament. Ens importa que cada peça expliqui una història i encaixi en el dia a dia de qui la fa servir.',
+        lead: 'El Taller del Pétalo és especialista en plantes, arranjaments florals i ornaments vegetals per a oficines, espais corporatius i esdeveniments.',
+        p: 'Creem ambients plens de vida, adaptant cada composició a l’estil i necessitats de cada espai. Oferim rams frescos setmanals, centres de taula i composicions personalitzades, així com altres solucions com rams de temporada i projectes a mida.',
+        p:  'Cada planta i flor aporta benestar i personalitat als espais de treball, combinant qualitat, creativitat i professionalitat.',
         imgAlt: 'Equip i taller',
       },
       productos: {
