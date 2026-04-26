@@ -61,12 +61,17 @@ body {
 }
 
 .lang-bar .btn-group .lang-btn {
-  border-color: var(--color-verde-sage);
+  border: none;
   color: var(--color-blanco);
   background-color: transparent;
   font-weight: 600;
   font-size: 0.75rem;
   padding: 0.2rem 0.45rem;
+  border-radius: 0;
+}
+
+.lang-bar .btn-group .lang-btn + .lang-btn {
+  border-left: 1px solid rgba(255, 255, 255, 0.45);
 }
 
 .lang-bar .btn-group .lang-btn:hover {
@@ -76,15 +81,42 @@ body {
 
 .lang-bar .btn-group .lang-btn.active {
   background-color: var(--color-marron);
-  border-color: var(--color-crema);
   color: var(--color-crema);
 }
 
-@media (min-width: 992px) {
+@media (max-width: 991.98px) {
+  .navbar-sitio .navbar-collapse {
+    padding-top: 0.75rem;
+  }
+
   .navbar-sitio .lang-bar {
-    margin-left: 3rem;
+    margin-top: 0.9rem;
+    padding-top: 0.9rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.22);
+    justify-content: center;
+  }
+
+  .lang-bar .btn-group {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .lang-bar .btn-group .lang-btn {
+    flex: 1 1 auto;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-sitio .navbar-collapse {
+    gap: 1rem;
+  }
+
+  .navbar-sitio .lang-bar {
+    margin-left: 1rem;
     margin-top: 0 !important;
-    padding-top: 0 !important;
+    padding-top: 0;
     border-top: none !important;
   }
 }
@@ -144,6 +176,7 @@ body {
 }
 
 .acerca-hero-text {
+  text-align: justify;
   max-width: 40rem;
 }
 
@@ -154,6 +187,10 @@ body {
 
 #visita .lead {
   margin-bottom: 2.75rem !important;
+}
+
+#visita .texto-cuerpo {
+  text-align: justify;
 }
 
 .texto-secundario {
@@ -198,7 +235,30 @@ body {
 
 #productos .card-producto .card-body,
 #servicios .card-producto .card-body {
+  display: flex;
+  flex-direction: column;
   flex-grow: 1;
+}
+
+#productos .card-producto .card-body > .d-flex,
+#servicios .card-producto .card-body > .d-flex {
+  display: contents !important;
+}
+
+#productos .card-producto .card-body > .d-flex .card-title,
+#servicios .card-producto .card-body > .d-flex .card-title {
+  order: 1;
+  width: 100%;
+  margin-bottom: 0.35rem !important;
+}
+
+#productos .card-producto .card-body > .d-flex .precio-producto,
+#servicios .card-producto .card-body > .d-flex .precio-servicio {
+  order: 3;
+  width: 100%;
+  text-align: right !important;
+  margin-top: auto !important;
+  padding-top: 0.75rem;
 }
 
 /* Productos: imágenes cuadradas (200x200 base), sin deformación */
@@ -252,7 +312,10 @@ body {
 }
 
 .card-producto-resumen {
+  order: 2;
   line-height: 1.5;
+  text-align: justify;
+  flex-grow: 1;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
