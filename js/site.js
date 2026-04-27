@@ -26,13 +26,13 @@
       productos: {
         h2: 'Nuestros productos',
         items: [
-          { name: 'Planta mini de escritorio', price: '8,18€ + IVA', summary: 'Planta pequeña de interior en maceta. Ideal para escritorio u oficina con luz indirecta; riego moderado y fácil cuidado.', imgAlt: 'Planta mini de escritorio' },
-          { name: 'Planta grande recepción', price: '41,32€ + IVA', summary: 'Planta de gran formato para hall o recepción. Especies resistentes y bien presentadas para dar imagen profesional al espacio.', imgAlt: 'Planta grande de recepción' },
-          { name: 'Rosa eterna', price: '45,45€ + IVA', summary: 'Rosa natural estabilizada: conserva su aspecto sin agua ni mantenimiento diario. Presentación en caja o soporte, detalle elegante y duradero.', imgAlt: 'Rosa eterna' },
-          { name: 'Centro de mesa', price: '37,19€ + IVA', summary: 'Composición floral para mesa de comedor o reunión. Flores y tonos de temporada, lista para sorprender en cualquier ocasión.', imgAlt: 'Centro de mesa' },
-          { name: 'Ramo de flores de temporada', price: '49,59€ + IVA', summary: 'Ramo elaborado con flores del momento y follaje seleccionado. Perfecto como regalo o para alegrar el hogar con color fresco.', imgAlt: 'Ramo de flores de temporada' },
-          { name: 'Suscripción "Fresh Monday"', price: '165,29€ + IVA', summary: 'Flores frescas cada lunes en tu empresa u oficina: ramo o composición de temporada con entrega puntual y presentación cuidada.', imgAlt: 'Suscripción Fresh Monday' },
-          { name: 'Arreglo para eventos', price: 'a consultar', summary: 'Decoración floral a medida: centros, arcos o ambientación para bodas y eventos corporativos. Presupuesto según fecha, espacio y estilo.', imgAlt: 'Arreglo floral para eventos' },
+          { name: 'Planta Mini de Escritorio', price: '8,18 €', summary: 'Diseño biofílico a escala personal. Ideal para reducir el estrés visual e integrar la naturaleza en el día a día del empleado.', imgAlt: 'Planta mini de escritorio' },
+          { name: 'Planta Gran Recepción', price: '41,32 €', summary: 'Activo de bienestar de gran formato. Purifica el aire y crea una primera impresión profesional y acogedora en vestíbulos.', imgAlt: 'Planta gran recepción' },
+          { name: 'Rosa Eterna', price: '45,45 €', summary: 'Simbolismo y durabilidad. Rosa natural estabilizada que mantiene su elegancia durante años sin necesidad de mantenimiento.', imgAlt: 'Rosa eterna' },
+          { name: 'Centro de Mesa', price: '37,19 €', summary: 'Composición detallista para mesas de reuniones, diseñada para fomentar un ambiente de trabajo creativo y armónico.', imgAlt: 'Centro de mesa' },
+          { name: 'Ramo de Flores de Temporada', price: '49,59 €', summary: 'Vitalidad y color con el mejor producto del momento. Un toque de frescura natural que humaniza el entorno corporativo.', imgAlt: 'Ramo de flores de temporada' },
+          { name: 'Suscripción "Fresh Monday"', price: '165,29 €/mes', summary: 'La esencia de nuestra marca en formato semanal. Transformamos el inicio de la semana laboral con una composición floral de temporada para su recepción.', imgAlt: 'Suscripción Fresh Monday' },
+          { name: 'Decoración de Eventos', price: 'A medida', summary: 'Proyectos personalizados para actos corporativos, aplicando nuestra metodología del "pétalo" a gran escala.', imgAlt: 'Decoración de eventos' },
         ],
       },
       servicios: {
@@ -46,8 +46,9 @@
       },
       visita: {
         h2: 'Visita comercial',
-        lead: 'Te abrimos las puertas del taller con cita previa',
-        p: 'Reserva un hueco de martes a sábado y conoce procesos, acabados y catálogo en persona. Ideal para proyectos de hostelería, regalos corporativos o encargos especiales. Respondemos en menos de 48 h laborables y confirmamos disponibilidad por email.',
+        lead: 'Diseñamos el bienestar de su oficina',
+        p:
+          'No creemos en soluciones genéricas. En El Taller del Pétalo, entendemos que cada espacio de trabajo tiene una personalidad y unas necesidades únicas. Por ello, le invitamos a agendar una visita personalizada con nuestro equipo de asesores comerciales.\n\nEn este encuentro, analizaremos la luz, la arquitectura y la cultura de su empresa para proponerle un plan de decoración floral artesana que se ajuste a sus valores. Nuestro objetivo es convertir su oficina en un entorno inspirador donde el talento se sienta como en casa.\n\nSolicite su consultoría personalizada y transformemos juntos su espacio de trabajo.',
         imgAlt: 'Espacio comercial y taller',
       },
       proyectos: {
@@ -57,9 +58,9 @@
       opiniones: {
         h2: 'Opiniones',
         cards: [
-          { text: '«Encargamos lámparas para la cafetería y quedaron espectaculares. Puntuales y muy profesionales.»', author: '— Laura M., Barcelona' },
-          { text: '«El taller en grupo fue divertido y claro. Salí con mi propia pieza y ganas de repetir.»', author: '— Diego R., Valencia' },
-          { text: '«Asesoría muy útil para nuestra reforma; ahorramos tiempo y acertamos con materiales.»', author: '— Ana y Pedro, Madrid' },
+          { text: '"Desde que contratamos la suscripción \'Fresh Monday\', el ambiente en recepción ha cambiado totalmente. El diseño artesanal de cada ramo refleja el cuidado por el detalle que queremos transmitir."', author: '— Marta Soler, Directora de RRHH' },
+          { text: '"Buscábamos un proveedor coherente con nuestros valores de sostenibilidad. El reparto con vehículos eléctricos y su gestión eficiente fueron decisivos."', author: '— Jordi Blanch, Gerente de Logística' },
+          { text: '"La delicadeza de los tonos y la transparencia de los pétalos que utilizan en sus diseños aportan una paz que nuestros usuarios agradecen mucho. Se nota el trabajo artesanal detrás de cada composición; no venden simplemente flores, crean entornos saludables y armónicos."', author: '— Elena Rius, Facility Manager en CoworkingBCN' },
         ],
       },
       footer: {
@@ -95,13 +96,13 @@
       productos: {
         h2: 'Els nostres productes',
         items: [
-          { name: 'Planta mini d\'escriptori', price: '8,18€ + IVA', summary: 'Planta petita d’interior amb test. Ideal per a escriptori o oficina amb llum indirecta; reg moderat i cura senzilla.', imgAlt: 'Planta mini d\'escriptori' },
-          { name: 'Planta gran de recepció', price: '41,32€ + IVA', summary: 'Planta de gran format per a hall o recepció. Espècies resistents i ben presentades per donar imatge professional a l’espai.', imgAlt: 'Planta gran de recepció' },
-          { name: 'Rosa eterna', price: '45,45€ + IVA', summary: 'Rosa natural estabilitzada: conserva l’aspecte sense aigua ni manteniment diari. Presentació en caixa o suport, detall elegant i durable.', imgAlt: 'Rosa eterna' },
-          { name: 'Centre de taula', price: '37,19€ + IVA', summary: 'Composició floral per a taula de menjador o reunió. Flors i tons de temporada, llesta per sorprendre en qualsevol ocasió.', imgAlt: 'Centre de taula' },
-          { name: 'Ram de flors de temporada', price: '49,59€ + IVA', summary: 'Ram elaborat amb flors del moment i fullatge seleccionat. Perfecte com a regal o per alegrar la llar amb color fresc.', imgAlt: 'Ram de flors de temporada' },
-          { name: 'Subscripció «Fresh Monday»', price: '165,29€ + IVA', summary: 'Flors fresques cada dilluns a la teva empresa o oficina: ram o composició de temporada amb lliurament puntual i presentació curada.', imgAlt: 'Subscripció Fresh Monday' },
-          { name: 'Arranjament per a esdeveniments', price: 'a consultar', summary: 'Decoració floral a mida: centres, arcs o ambientació per a casaments i esdeveniments corporatius. Pressupost segons data, espai i estil.', imgAlt: 'Arranjament floral per a esdeveniments' },
+          { name: 'Planta Mini d\'Escriptori', price: '8,18 €', summary: 'Disseny biofílic a escala personal (tipus Pilea). Redueix l\'estrès visual i millora la concentració en el lloc de treball.', imgAlt: 'Planta mini d\'escriptori' },
+          { name: 'Planta Gran Recepció', price: '41,32 €', summary: 'Actiu de benestar de gran format (com la Kentia). Purifica l\'aire i crea una primera impressió professional i acollidora.', imgAlt: 'Planta gran recepció' },
+          { name: 'Rosa Eterna', price: '45,45 €', summary: 'Simbolisme i durabilitat. Rosa natural estabilitzada que manté la seva elegància i color durant anys sense necessitat de manteniment.', imgAlt: 'Rosa eterna' },
+          { name: 'Centre de Taula', price: '37,19 €', summary: 'Composició detallista per a taules de reunions. Dissenyada segons l\'ambient i la funció de cada espai per fomentar la creativitat.', imgAlt: 'Centre de taula' },
+          { name: 'Ram de Flors de Temporada', price: '49,59 €', summary: 'Vitalitat i color amb el millor producte del moment. Un toc de frescor natural que humanitza l\'entorn corporatiu.', imgAlt: 'Ram de flors de temporada' },
+          { name: 'Subscripció "Fresh Monday"', price: '165,29 €/mes', summary: 'L’essència de la nostra marca en format setmanal. Transformem l’inici de la setmana laboral amb una composició floral de temporada, dissenyada exclusivament per a la recepció.', imgAlt: 'Subscripció Fresh Monday' },
+          { name: 'Decoració d\'Esdeveniments', price: 'A mida', summary: 'Projectes personalitzats per a inauguracions o actes corporatius, aplicant la nostra metodologia del "pètal" a gran escala.', imgAlt: 'Decoració d\'esdeveniments' },
         ],
       },
       servicios: {
@@ -115,8 +116,9 @@
       },
       visita: {
         h2: 'Visita comercial',
-        lead: 'T’obrim les portes del taller amb cita prèvia',
-        p: 'Reserva un forat de dimarts a dissabte i coneix processos, acabats i catàleg en persona. Ideal per a projectes d’hostaleria, regals corporatius o encàrrecs especials. Responguem en menys de 48 h laborables i confirmem disponibilitat per correu.',
+        lead: 'Dissenyem el benestar de la vostra oficina',
+        p:
+          'No creiem en solucions genèriques. A El Taller del Pétalo, entenem que cada espai de treball té una personalitat i unes necessitats úniques. Per això, us convidem a agendar una visita personalitzada amb el nostre equip d\'assessors comercials.\n\nEn aquesta trobada, analitzarem la llum, l\'arquitectura i la cultura de la vostra empresa per proposar-vos un pla de decoració floral artesana que s\'ajusti als vostres valors. El nostre objectiu és convertir la vostra oficina en un entorn inspirador on el talent es senti com a casa.\n\nSol·liciteu la vostra consultoria personalitzada i transformem junts el vostre espai de treball.',
         imgAlt: 'Espai comercial i taller',
       },
       proyectos: {
@@ -126,9 +128,9 @@
       opiniones: {
         h2: 'Opinions',
         cards: [
-          { text: '«Vam encarregar llums per a la cafeteria i van quedar espectaculars. Puntuals i molt professionals.»', author: '— Laura M., Barcelona' },
-          { text: '«El taller en grup va ser divertit i clar. Vaig sortir amb la meva pròpia peça i ganes de repetir.»', author: '— Diego R., València' },
-          { text: '«Assessoria molt útil per a la nostra reforma; vam estalviar temps i encertar materials.»', author: '— Ana i Pedro, Madrid' },
+          { text: '"Des que vam contractar la subscripció \'Fresh Monday\', l\'ambient a la recepció ha canviat totalment. El disseny artesanal de cada ram reflecteix la cura pel detall que nosaltres també volem transmetre als nostres clients. Un servei de 10."', author: '— Marta Soler, Directora de RRHH en InnovaTech' },
+          { text: '"Buscàvem un proveïdor que fos coherent amb els nostres valors de sostenibilitat. El fet que El Taller del Pétalo faci els repartiments amb vehicles elèctrics i gestioni el producte de forma tan eficient va ser el factor decisiu. Molt recomanables."', author: '— Jordi Blanch, Gerent de Logística a SomTransports' },
+          { text: '"La delicadesa dels colors i la transparència dels pètals que fan servir en els seus dissenys aporten una pau que els nostres usuaris agraeixen molt. No venen flors, venen entorns saludables."', author: '— Elena Rius, Facility Manager a CoworkingBCN' },
         ],
       },
       footer: {
@@ -164,13 +166,13 @@
       productos: {
         h2: 'Our products',
         items: [
-          { name: 'Mini desk plant', price: '€8.18 + VAT', summary: 'Small potted indoor plant for desks and offices; indirect light and moderate watering, easy day-to-day care.', imgAlt: 'Mini desk plant' },
-          { name: 'Large reception plant', price: '€41.32 + VAT', summary: 'Large-format plant for lobbies and reception areas — hardy, well-presented varieties for a professional welcome.', imgAlt: 'Large reception plant' },
-          { name: 'Eternal rose', price: '€45.45 + VAT', summary: 'Stabilised natural rose that keeps its look without daily water or care. Presented in a box or holder — elegant and long-lasting.', imgAlt: 'Eternal rose' },
-          { name: 'Table centrepiece', price: '€37.19 + VAT', summary: 'Floral arrangement for dining or meeting tables using seasonal blooms and colours, ready for any special moment.', imgAlt: 'Table centrepiece' },
-          { name: 'Seasonal flower bouquet', price: '€49.59 + VAT', summary: 'Hand-crafted bouquet with flowers of the moment and selected foliage — ideal as a gift or a fresh home accent.', imgAlt: 'Seasonal flower bouquet' },
-          { name: '“Fresh Monday” subscription', price: '€165.29 + VAT', summary: 'Fresh flowers every Monday at your workplace: bouquet or seasonal arrangement with reliable delivery and neat presentation.', imgAlt: 'Fresh Monday subscription' },
-          { name: 'Event arrangement', price: 'on request', summary: 'Bespoke floral décor — centrepieces, arches or full styling for weddings and corporate events. Quote by date, venue and style.', imgAlt: 'Floral event arrangement' },
+          { name: 'Desktop Mini Plant', price: '€8.18', summary: 'Biophilic design on a personal scale. Perfect for reducing visual stress and bringing nature into the employee\'s daily routine.', imgAlt: 'Desktop mini plant' },
+          { name: 'Large Reception Plant', price: '€41.32', summary: 'A large-scale wellness asset. It purifies the air and creates a professional, welcoming first impression in lobbies.', imgAlt: 'Large reception plant' },
+          { name: 'Eternal Rose', price: '€45.45', summary: 'Symbolism and durability. A stabilized natural rose that maintains its elegance for years without the need for maintenance.', imgAlt: 'Eternal rose' },
+          { name: 'Table Centerpiece', price: '€37.19', summary: 'A detailed composition for meeting tables, designed to foster a creative and harmonious working environment.', imgAlt: 'Table centerpiece' },
+          { name: 'Seasonal Flower Bouquet', price: '€49.59', summary: 'Vitality and color using the best seasonal picks. A touch of natural freshness that humanizes the corporate setting.', imgAlt: 'Seasonal flower bouquet' },
+          { name: '"Fresh Monday" Subscription', price: '€165.29/month', summary: 'Our brand\'s essence in a weekly format. We refresh your work week with a seasonal floral arrangement for your reception.', imgAlt: 'Fresh Monday subscription' },
+          { name: 'Event Decoration', price: 'Custom', summary: 'Tailor-made projects for corporate events, applying our "petal" methodology on a grand scale.', imgAlt: 'Event decoration' },
         ],
       },
       servicios: {
@@ -184,8 +186,9 @@
       },
       visita: {
         h2: 'Commercial visit',
-        lead: 'We open the workshop doors by appointment',
-        p: 'Book a slot Tuesday to Saturday and see processes, finishes and catalogue in person. Ideal for hospitality projects, corporate gifts or special orders. We reply within 48 business hours and confirm availability by email.',
+        lead: 'Designing Wellness for Your Office',
+        p:
+          'We do not believe in one-size-fits-all solutions. At El Taller del Pétalo, we understand that every workspace has a unique personality and specific needs. Therefore, we invite you to schedule a personalized visit with our team of commercial consultants.\n\nDuring this meeting, we will analyze the lighting, architecture, and corporate culture of your company to propose a handcrafted floral decoration plan that aligns with your values. Our goal is to turn your office into an inspiring environment where talent feels right at home.\n\nRequest your personalized consultation today and let\'s transform your workspace together.',
         imgAlt: 'Commercial space and workshop',
       },
       proyectos: {
@@ -195,9 +198,9 @@
       opiniones: {
         h2: 'Reviews',
         cards: [
-          { text: '«We ordered lamps for the café and they looked spectacular. Punctual and very professional.»', author: '— Laura M., Barcelona' },
-          { text: '«The group workshop was fun and clear. I left with my own piece and want to go back.»', author: '— Diego R., Valencia' },
-          { text: '«Very helpful consulting for our renovation; we saved time and chose the right materials.»', author: '— Ana & Pedro, Madrid' },
+          { text: '"Since we started the \'Fresh Monday\' subscription, our reception\'s atmosphere has completely changed. The handcrafted design of each bouquet reflects the attention to detail we want to project."', author: '— Marta Soler, HR Director' },
+          { text: '"We were looking for a supplier aligned with our sustainability values. Their electric vehicle delivery and efficient management were the deciding factors."', author: '— Jordi Blanch, Logistics Manager' },
+          { text: '"The delicacy of the tones and the transparency of the petals they use in their designs bring a sense of peace that our users truly appreciate. You can really feel the handcrafted work behind every arrangement; they don\'t just sell flowers, they create healthy and harmonious environments."', author: '— Elena Rius, Facility Manager at CoworkingBCN' },
         ],
       },
       footer: {

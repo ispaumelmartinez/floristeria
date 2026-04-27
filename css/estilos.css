@@ -9,6 +9,7 @@
   --color-verde-sage: #9eae98;
   --color-tierra: #a18e7b;
   --color-lila-suave: #e0ceea;
+  --color-crema-logo:#fdfaf1;
 }
 
 body {
@@ -189,8 +190,16 @@ body {
   margin-bottom: 2.75rem !important;
 }
 
+/* Más aire entre imagen y texto (dos columnas en escritorio) */
+@media (min-width: 992px) {
+  #visita .row-visita {
+    --bs-gutter-x: 4.25rem;
+  }
+}
+
 #visita .texto-cuerpo {
   text-align: justify;
+  white-space: pre-line;
 }
 
 .texto-secundario {
