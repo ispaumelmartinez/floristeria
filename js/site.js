@@ -26,13 +26,13 @@
       productos: {
         h2: 'Nuestros productos',
         items: [
-          { name: 'Planta Mini de Escritorio', price: '8,18 €', summary: 'Diseño biofílico a escala personal. Ideal para reducir el estrés visual e integrar la naturaleza en el día a día del empleado.', imgAlt: 'Planta mini de escritorio' },
-          { name: 'Planta Gran Recepción', price: '41,32 €', summary: 'Activo de bienestar de gran formato. Purifica el aire y crea una primera impresión profesional y acogedora en vestíbulos.', imgAlt: 'Planta gran recepción' },
-          { name: 'Rosa Eterna', price: '45,45 €', summary: 'Simbolismo y durabilidad. Rosa natural estabilizada que mantiene su elegancia durante años sin necesidad de mantenimiento.', imgAlt: 'Rosa eterna' },
-          { name: 'Centro de Mesa', price: '37,19 €', summary: 'Composición detallista para mesas de reuniones, diseñada para fomentar un ambiente de trabajo creativo y armónico.', imgAlt: 'Centro de mesa' },
-          { name: 'Ramo de Flores de Temporada', price: '49,59 €', summary: 'Vitalidad y color con el mejor producto del momento. Un toque de frescura natural que humaniza el entorno corporativo.', imgAlt: 'Ramo de flores de temporada' },
-          { name: 'Suscripción "Fresh Monday"', price: '165,29 €/mes', summary: 'La esencia de nuestra marca en formato semanal. Transformamos el inicio de la semana laboral con una composición floral de temporada para su recepción.', imgAlt: 'Suscripción Fresh Monday' },
-          { name: 'Decoración de Eventos', price: 'A medida', summary: 'Proyectos personalizados para actos corporativos, aplicando nuestra metodología del "pétalo" a gran escala.', imgAlt: 'Decoración de eventos' },
+          { name: 'Planta Mini de Escritorio', price: '8,18 € + IVA', summary: 'Diseño biofílico a escala personal. Ideal para reducir el estrés visual e integrar la naturaleza en el día a día del empleado.', imgAlt: 'Planta mini de escritorio' },
+          { name: 'Planta Gran Recepción', price: '41,32 € + IVA', summary: 'Activo de bienestar de gran formato. Purifica el aire y crea una primera impresión profesional y acogedora en vestíbulos.', imgAlt: 'Planta gran recepción' },
+          { name: 'Rosa Eterna', price: '45,45 € + IVA', summary: 'Simbolismo y durabilidad. Rosa natural estabilizada que mantiene su elegancia durante años sin necesidad de mantenimiento.', imgAlt: 'Rosa eterna' },
+          { name: 'Centro de Mesa', price: '37,19 € + IVA', summary: 'Composición detallista para mesas de reuniones, diseñada para fomentar un ambiente de trabajo creativo y armónico.', imgAlt: 'Centro de mesa' },
+          { name: 'Ramo de Flores de Temporada', price: '49,59 € + IVA', summary: 'Vitalidad y color con el mejor producto del momento. Un toque de frescura natural que humaniza el entorno corporativo.', imgAlt: 'Ramo de flores de temporada' },
+          { name: 'Suscripción "Fresh Monday"', price: '165,29 €/mes + IVA', summary: 'La esencia de nuestra marca en formato semanal. Transformamos el inicio de la semana laboral con una composición floral de temporada para su recepción.', imgAlt: 'Suscripción Fresh Monday' },
+          { name: 'Decoración de Eventos', price: 'A medida (+ IVA)', summary: 'Proyectos personalizados para actos corporativos, aplicando nuestra metodología del "pétalo" a gran escala.', imgAlt: 'Decoración de eventos' },
         ],
       },
       servicios: {
@@ -96,13 +96,13 @@
       productos: {
         h2: 'Els nostres productes',
         items: [
-          { name: 'Planta Mini d\'Escriptori', price: '8,18 €', summary: 'Disseny biofílic a escala personal (tipus Pilea). Redueix l\'estrès visual i millora la concentració en el lloc de treball.', imgAlt: 'Planta mini d\'escriptori' },
-          { name: 'Planta Gran Recepció', price: '41,32 €', summary: 'Actiu de benestar de gran format (com la Kentia). Purifica l\'aire i crea una primera impressió professional i acollidora.', imgAlt: 'Planta gran recepció' },
-          { name: 'Rosa Eterna', price: '45,45 €', summary: 'Simbolisme i durabilitat. Rosa natural estabilitzada que manté la seva elegància i color durant anys sense necessitat de manteniment.', imgAlt: 'Rosa eterna' },
-          { name: 'Centre de Taula', price: '37,19 €', summary: 'Composició detallista per a taules de reunions. Dissenyada segons l\'ambient i la funció de cada espai per fomentar la creativitat.', imgAlt: 'Centre de taula' },
-          { name: 'Ram de Flors de Temporada', price: '49,59 €', summary: 'Vitalitat i color amb el millor producte del moment. Un toc de frescor natural que humanitza l\'entorn corporatiu.', imgAlt: 'Ram de flors de temporada' },
-          { name: 'Subscripció "Fresh Monday"', price: '165,29 €/mes', summary: 'L’essència de la nostra marca en format setmanal. Transformem l’inici de la setmana laboral amb una composició floral de temporada, dissenyada exclusivament per a la recepció.', imgAlt: 'Subscripció Fresh Monday' },
-          { name: 'Decoració d\'Esdeveniments', price: 'A mida', summary: 'Projectes personalitzats per a inauguracions o actes corporatius, aplicant la nostra metodologia del "pètal" a gran escala.', imgAlt: 'Decoració d\'esdeveniments' },
+          { name: 'Planta Mini d\'Escriptori', price: '8,18 € + IVA', summary: 'Disseny biofílic a escala personal (tipus Pilea). Redueix l\'estrès visual i millora la concentració en el lloc de treball.', imgAlt: 'Planta mini d\'escriptori' },
+          { name: 'Planta Gran Recepció', price: '41,32 € + IVA', summary: 'Actiu de benestar de gran format (com la Kentia). Purifica l\'aire i crea una primera impressió professional i acollidora.', imgAlt: 'Planta gran recepció' },
+          { name: 'Rosa Eterna', price: '45,45 € + IVA', summary: 'Simbolisme i durabilitat. Rosa natural estabilitzada que manté la seva elegància i color durant anys sense necessitat de manteniment.', imgAlt: 'Rosa eterna' },
+          { name: 'Centre de Taula', price: '37,19 € + IVA', summary: 'Composició detallista per a taules de reunions. Dissenyada segons l\'ambient i la funció de cada espai per fomentar la creativitat.', imgAlt: 'Centre de taula' },
+          { name: 'Ram de Flors de Temporada', price: '49,59 € + IVA', summary: 'Vitalitat i color amb el millor producte del moment. Un toc de frescor natural que humanitza l\'entorn corporatiu.', imgAlt: 'Ram de flors de temporada' },
+          { name: 'Subscripció "Fresh Monday"', price: '165,29 €/mes + IVA', summary: 'L’essència de la nostra marca en format setmanal. Transformem l’inici de la setmana laboral amb una composició floral de temporada, dissenyada exclusivament per a la recepció.', imgAlt: 'Subscripció Fresh Monday' },
+          { name: 'Decoració d\'Esdeveniments', price: 'A mida (+ IVA)', summary: 'Projectes personalitzats per a inauguracions o actes corporatius, aplicant la nostra metodologia del "pètal" a gran escala.', imgAlt: 'Decoració d\'esdeveniments' },
         ],
       },
       servicios: {
@@ -166,13 +166,13 @@
       productos: {
         h2: 'Our products',
         items: [
-          { name: 'Desktop Mini Plant', price: '€8.18', summary: 'Biophilic design on a personal scale. Perfect for reducing visual stress and bringing nature into the employee\'s daily routine.', imgAlt: 'Desktop mini plant' },
-          { name: 'Large Reception Plant', price: '€41.32', summary: 'A large-scale wellness asset. It purifies the air and creates a professional, welcoming first impression in lobbies.', imgAlt: 'Large reception plant' },
-          { name: 'Eternal Rose', price: '€45.45', summary: 'Symbolism and durability. A stabilized natural rose that maintains its elegance for years without the need for maintenance.', imgAlt: 'Eternal rose' },
-          { name: 'Table Centerpiece', price: '€37.19', summary: 'A detailed composition for meeting tables, designed to foster a creative and harmonious working environment.', imgAlt: 'Table centerpiece' },
-          { name: 'Seasonal Flower Bouquet', price: '€49.59', summary: 'Vitality and color using the best seasonal picks. A touch of natural freshness that humanizes the corporate setting.', imgAlt: 'Seasonal flower bouquet' },
-          { name: '"Fresh Monday" Subscription', price: '€165.29/month', summary: 'Our brand\'s essence in a weekly format. We refresh your work week with a seasonal floral arrangement for your reception.', imgAlt: 'Fresh Monday subscription' },
-          { name: 'Event Decoration', price: 'Custom', summary: 'Tailor-made projects for corporate events, applying our "petal" methodology on a grand scale.', imgAlt: 'Event decoration' },
+          { name: 'Desktop Mini Plant', price: '€8.18 + VAT', summary: 'Biophilic design on a personal scale. Perfect for reducing visual stress and bringing nature into the employee\'s daily routine.', imgAlt: 'Desktop mini plant' },
+          { name: 'Large Reception Plant', price: '€41.32 + VAT', summary: 'A large-scale wellness asset. It purifies the air and creates a professional, welcoming first impression in lobbies.', imgAlt: 'Large reception plant' },
+          { name: 'Eternal Rose', price: '€45.45 + VAT', summary: 'Symbolism and durability. A stabilized natural rose that maintains its elegance for years without the need for maintenance.', imgAlt: 'Eternal rose' },
+          { name: 'Table Centerpiece', price: '€37.19 + VAT', summary: 'A detailed composition for meeting tables, designed to foster a creative and harmonious working environment.', imgAlt: 'Table centerpiece' },
+          { name: 'Seasonal Flower Bouquet', price: '€49.59 + VAT', summary: 'Vitality and color using the best seasonal picks. A touch of natural freshness that humanizes the corporate setting.', imgAlt: 'Seasonal flower bouquet' },
+          { name: '"Fresh Monday" Subscription', price: '€165.29/month + VAT', summary: 'Our brand\'s essence in a weekly format. We refresh your work week with a seasonal floral arrangement for your reception.', imgAlt: 'Fresh Monday subscription' },
+          { name: 'Event Decoration', price: 'Custom (+ VAT)', summary: 'Tailor-made projects for corporate events, applying our "petal" methodology on a grand scale.', imgAlt: 'Event decoration' },
         ],
       },
       servicios: {

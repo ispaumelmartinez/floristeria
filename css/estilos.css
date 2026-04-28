@@ -3,10 +3,9 @@
 :root {
   --color-lila: #d2abea;
   --color-blanco: #ffffff;
-  --color-marron: #8d694e;
   --color-crema: #edefec;
-  --color-verde-oscuro: #56654f;
-  --color-verde-sage: #9eae98;
+  --color-verde-oscuro: #385b03;
+  --color-verde-sage: #93a58d;
   --color-tierra: #a18e7b;
   --color-lila-suave: #e0ceea;
   --color-crema-logo:#fdfaf1;
@@ -28,12 +27,12 @@ body {
 }
 
 .navbar-sitio {
-  background-color: var(--color-tierra) !important;
+  background-color: var(--color-crema-logo) !important;
 }
 
 .navbar-sitio .navbar-brand-text,
 .navbar-sitio .nav-link {
-  color: var(--color-blanco) !important;
+  color: var(--color-verde-oscuro) !important;
 }
 
 .navbar-sitio .navbar-brand-sub {
@@ -42,28 +41,26 @@ body {
 }
 
 .navbar-sitio .nav-link:hover {
-  color: var(--color-marron) !important;
+  color: var(--color-tierra) !important;
 }
 
 .navbar-sitio .nav-link.nav-active {
-  background-color: var(--color-tierra);
-  color: var(--color-verde-sage) !important;
-  border-radius: 0.5rem;
-  padding-left: 0.65rem;
-  padding-right: 0.65rem;
+  color: var(--color-verde-oscuro) !important;
+  border-bottom: 3px solid var(--color-lila);
+  padding-bottom: calc(0.5rem - 3px);
 }
 
 .navbar-sitio .navbar-toggler {
-  border-color: rgba(255, 255, 255, 0.35);
+  border-color: rgba(56, 91, 3, 0.35);
 }
 
 .navbar-sitio .navbar-toggler-icon {
-  filter: brightness(0) invert(1);
+  filter: none;
 }
 
 .lang-bar .btn-group .lang-btn {
   border: none;
-  color: var(--color-blanco);
+  color: var(--color-verde-oscuro);
   background-color: transparent;
   font-weight: 600;
   font-size: 0.75rem;
@@ -72,17 +69,17 @@ body {
 }
 
 .lang-bar .btn-group .lang-btn + .lang-btn {
-  border-left: 1px solid rgba(255, 255, 255, 0.45);
+  border-left: 1px solid rgba(56, 91, 3, 0.35);
 }
 
 .lang-bar .btn-group .lang-btn:hover {
-  background-color: rgba(224, 206, 234, 0.25);
-  color: var(--color-blanco);
+  background-color: rgba(224, 206, 234, 0.55);
+  color: var(--color-verde-oscuro);
 }
 
 .lang-bar .btn-group .lang-btn.active {
-  background-color: var(--color-marron);
-  color: var(--color-crema);
+  background-color: var(--color-tierra);
+  color: var(--color-blanco);
 }
 
 @media (max-width: 991.98px) {
@@ -93,7 +90,7 @@ body {
   .navbar-sitio .lang-bar {
     margin-top: 0.9rem;
     padding-top: 0.9rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.22);
+    border-top: 1px solid rgba(114, 162, 43, 0.22);
     justify-content: center;
   }
 
@@ -123,7 +120,7 @@ body {
 }
 
 .seccion-fondo {
-  background-color: var(--color-crema) !important;
+  background-color: var(--color-crema-logo) !important;
 }
 
 /* Hero "Acerca de nosotros": foto de fondo, velo oscuro y texto encima */
@@ -182,7 +179,7 @@ body {
 }
 
 .titulo-seccion {
-  color: var(--color-marron);
+  color: var(--color-tierra);
   margin-bottom: 2.75rem !important;
 }
 
@@ -333,7 +330,7 @@ body {
 .precio-producto,
 .precio-servicio {
   font-weight: 700;
-  color: var(--color-marron);
+  color: var(--color-tierra);
 }
 
 .precio-servicio {
@@ -348,8 +345,8 @@ body {
 
 .btn-outline-sitio:hover {
   color: var(--color-blanco);
-  background-color: var(--color-marron);
-  border-color: var(--color-marron);
+  background-color: var(--color-tierra);
+  border-color: var(--color-tierra);
 }
 
 .galeria-img {
@@ -398,7 +395,7 @@ section[id] {
   width: 2.25rem;
   height: 2.25rem;
   border-radius: 50%;
-  background-color: var(--color-marron);
+  background-color: var(--color-tierra);
   background-size: 60% 60%;
 }
 
@@ -475,7 +472,7 @@ section[id] {
   padding: 0;
   border: none;
   border-radius: 50%;
-  background-color: var(--color-marron);
+  background-color: var(--color-tierra);
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;
@@ -512,13 +509,13 @@ section[id] {
 }
 
 .footer-sitio {
-  background-color: var(--color-verde-oscuro);
+  background-color: var(--color-tierra);
   color: var(--color-blanco);
 }
 
 .footer-sitio .titulo-footer {
   color: var(--color-blanco);
-  border-color: var(--color-verde-sage) !important;
+  border-color: var(--color-blanco) !important;
   margin-bottom: 2.75rem !important;
 }
 
