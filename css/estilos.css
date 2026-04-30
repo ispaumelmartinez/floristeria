@@ -264,6 +264,11 @@ body {
   margin-bottom: 0.35rem !important;
 }
 
+/* Servicios: altura mínima del bloque de título para alinear el inicio del texto descriptivo entre cartas */
+#servicios .card-producto .card-body > .d-flex .card-title {
+  min-height: clamp(4rem, 7vw, 5.75rem);
+}
+
 #productos .card-producto .card-body > .d-flex .precio-producto,
 #servicios .card-producto .card-body > .d-flex .precio-servicio {
   order: 3;

@@ -27,7 +27,7 @@
         h2: 'Nuestros productos',
         items: [
           { name: 'Planta Mini de Escritorio', price: '8,18 € + IVA', summary: 'Diseño biofílico a escala personal. Ideal para reducir el estrés visual e integrar la naturaleza en el día a día del empleado.', imgAlt: 'Planta mini de escritorio' },
-          { name: 'Planta Gran Recepción', price: '41,32 € + IVA', summary: 'Activo de bienestar de gran formato. Purifica el aire y crea una primera impresión profesional y acogedora en vestíbulos.', imgAlt: 'Planta gran recepción' },
+          { name: 'Planta Grande Recepción', price: '41,32 € + IVA', summary: 'Activo de bienestar de gran formato. Purifica el aire y crea una primera impresión profesional y acogedora en vestíbulos.', imgAlt: 'Planta grande recepción' },
           { name: 'Rosa Eterna', price: '45,45 € + IVA', summary: 'Simbolismo y durabilidad. Rosa natural estabilizada que mantiene su elegancia durante años sin necesidad de mantenimiento.', imgAlt: 'Rosa eterna' },
           { name: 'Centro de Mesa', price: '37,19 € + IVA', summary: 'Composición detallista para mesas de reuniones, diseñada para fomentar un ambiente de trabajo creativo y armónico.', imgAlt: 'Centro de mesa' },
           { name: 'Ramo de Flores de Temporada', price: '49,59 € + IVA', summary: 'Vitalidad y color con el mejor producto del momento. Un toque de frescura natural que humaniza el entorno corporativo.', imgAlt: 'Ramo de flores de temporada' },
@@ -38,10 +38,10 @@
       servicios: {
         h2: 'Nuestros servicios',
         items: [
-          { name: 'Transporte especializado', price: 'desde 10 €', summary: 'Reparto de plantas y composiciones con franja horaria concertada. Embalaje reforzado para que lleguen en perfecto estado.', imgAlt: 'Transporte de plantas' },
-          { name: 'Servicio de suscripción', price: '25 €/mes', summary: 'Ramo o composición cada mes con flores de temporada. Pausas y cambios de dirección sin complicaciones.', imgAlt: 'Suscripción floral' },
-          { name: 'Pack regalo', price: '5 €', summary: 'Mini ramo o detalle floral listo para entregar. Tarjeta opcional. Pensado para celebraciones íntimas.', imgAlt: 'Pack regalo' },
-          { name: 'Asesoramiento personalizado', price: 'a consultar', summary: 'Visita o videollamada para elegir plantas y estilos según tu espacio. Presupuesto claro sin compromiso.', imgAlt: 'Asesoramiento floral' },
+          { name: 'Transporte Especializado y Sostenible', price: 'Incluido · gratis > 40 €', summary: 'Garantizamos la máxima durabilidad del producto mediante nuestra flota de vehículos eléctricos con control de temperatura (12°C-15°C). Este servicio está plenamente integrado en la cuota de suscripción y se ofrece de forma gratuita en pedidos puntuales que superen los 40 € de base imponible.', imgAlt: 'Transporte eléctrico y sostenible' },
+          { name: 'Estética Circular y Soporte Premium', price: 'Incluido en Fresh Monday', summary: 'Disfrute de una estética dinámica mediante nuestro modelo de "diseño circular". Seleccionamos semanalmente los soportes y jarrones de alta gama que mejor se adaptan a cada ramo para que su recepción luzca siempre renovada y sorprendente. Este servicio de cesión y mantenimiento está incluido sin coste adicional dentro de su suscripción "Fresh Monday".', imgAlt: 'Estética circular y soportes premium' },
+          { name: 'Experiencia Pack Regalo', price: 'servicio adicional', summary: 'Eleve el valor de cualquiera de nuestras referencias con nuestra modalidad de presentación superior. Este servicio adicional incluye un envoltorio premium de textura enriquecida, ornamentación mediante lazos de fibras naturales y una tarjeta de cortesía personalizada. Es la solución ideal para garantizar que su obsequio institucional mantenga los más altos estándares de distinción y elegancia artesanal.', imgAlt: 'Experiencia pack regalo' },
+          { name: 'Arreglos para Eventos', price: 'a medida', summary: 'Potencie la imagen de su marca en convenciones e inauguraciones con nuestra asesoría floral personalizada. Analizamos la arquitectura y el propósito de su evento para diseñar atmósferas a medida que refuercen la identidad corporativa y el impacto visual ante sus clientes.', imgAlt: 'Arreglos florales para eventos' },
         ],
       },
       visita: {
@@ -108,10 +108,10 @@
       servicios: {
         h2: 'Els nostres serveis',
         items: [
-          { name: 'Transport especialitzat', price: 'des de 10 €', summary: 'Repartiment de plantes i composicions amb franja horària concertada. Embalatge reforçat perquè arribin en perfecte estat.', imgAlt: 'Transport de plantes' },
-          { name: 'Servei de subscripció', price: '25 €/mes', summary: 'Ram o composició cada mes amb flors de temporada. Pauses i canvis d’adreça sense complicacions.', imgAlt: 'Subscripció floral' },
-          { name: 'Pack regal', price: '5 €', summary: 'Mini ram o detall floral llest per lliurar. Targeta opcional. Pensat per a celebracions íntimes.', imgAlt: 'Pack aniversari' },
-          { name: 'Assessorament personalitzat', price: 'a consultar', summary: 'Visita o videotrucada per triar plantes i estil segons el teu espai. Pressupost clar sense compromís.', imgAlt: 'Assessorament floral' },
+          { name: 'Transport Especialitzat i Sostenible', price: 'Inclòs · gratis > 40 €', summary: 'Garantim la màxima durabilitat del producte mitjançant la nostra flota de vehicles elèctrics amb control de temperatura (12ºC-15ºC). Aquest servei està plenament integrat en la quota de subscripció i s\'ofereix de forma gratuïta en comandes puntuals que superin els 40 € de base imposable.', imgAlt: 'Transport elèctric i sostenible' },
+          { name: 'Estètica Circular i Suport Premium', price: 'Inclòs a Fresh Monday', summary: 'Gaudiu d’una estètica dinàmica mitjançant el nostre model de \'disseny circular\'. Seleccionem setmanalment els suports i gerros d’alta gamma que millor s’adapten a cada ram perquè la seva recepció llueixi sempre renovada i sorprenent. Aquest servei de cessió i manteniment està inclòs sense cost addicional dins de la seva subscripció \'Fresh Monday\'.', imgAlt: 'Estètica circular i suports premium' },
+          { name: 'Experiència Pack Regal', price: 'servei addicional', summary: 'Eleveu el valor de qualsevol de les nostres referències amb la nostra modalitat de presentació superior. Aquest servei addicional inclou un embolcall premium de textura rica, ornamentació mitjançant llaços de fibres naturals i una targeta de cortesia personalitzada. És la solució ideal per garantir que el vostre obsequi institucional mantingui els estàndards més alts de distinció i elegància artesana.', imgAlt: 'Experiència pack regal' },
+          { name: 'Arranjaments per a Esdeveniments', price: 'a mida', summary: 'Potencieu la imatge de la vostra marca en convencions i inauguracions amb la nostra assessoria floral personalitzada. Analitzem l\'arquitectura i el propòsit del vostre esdeveniment per dissenyar atmosferes a mida que reforcin la identitat corporativa i l\'impacte visual davant els vostres clients.', imgAlt: 'Arranjaments florals per a esdeveniments' },
         ],
       },
       visita: {
@@ -178,10 +178,10 @@
       servicios: {
         h2: 'Our services',
         items: [
-          { name: 'Specialist delivery', price: 'from €10', summary: 'Delivery of plants and arrangements in an agreed time window. Reinforced packaging so they arrive in perfect condition.', imgAlt: 'Plant delivery' },
-          { name: 'Subscription service', price: '€25/month', summary: 'Bouquet or arrangement every month with seasonal flowers. Easy pauses and address changes.', imgAlt: 'Flower subscription' },
-          { name: 'Gift pack', price: '€5', summary: 'Mini bouquet or floral detail ready to hand over. Optional card. Suited to small celebrations.', imgAlt: 'Birthday pack' },
-          { name: 'Personalised advice', price: 'on request', summary: 'Visit or video call to choose plants and style for your space. Clear quote, no obligation.', imgAlt: 'Floral advice' },
+          { name: 'Specialized and Sustainable Transport', price: 'Included / free over €40', summary: 'We guarantee maximum product durability through our fleet of electric vehicles with temperature control (12ºC-15ºC). This service is fully integrated into the subscription fee and is offered free of charge for one-off orders exceeding a tax base of €40.', imgAlt: 'Electric sustainable delivery' },
+          { name: 'Circular Aesthetics & Premium Stands', price: 'Included (Fresh Monday)', summary: 'Enjoy a dynamic aesthetic through our \'circular design\' model. We select high-end stands and vases every week that best complement each bouquet, ensuring your reception area always looks fresh and impressive. This leasing and maintenance service is included at no additional cost as part of your \'Fresh Monday\' subscription.', imgAlt: 'Circular aesthetics and premium stands' },
+          { name: 'Gift Pack Experience', price: 'add-on service', summary: 'Enhance the value of any of our products with our premium presentation tier. This additional service features high-quality textured wrapping, decorative natural fiber ribbons, and a personalized courtesy card. It is the perfect solution to ensure your corporate gift maintains the highest standards of distinction and artisanal elegance.', imgAlt: 'Gift pack experience' },
+          { name: 'Floral Arrangements for Events', price: 'bespoke quote', summary: 'Enhance your brand image at conventions and grand openings with our personalized floral consultancy. We analyze the architecture and purpose of your event to design bespoke atmospheres that reinforce your corporate identity and visual impact for your clients.', imgAlt: 'Floral arrangements for events' },
         ],
       },
       visita: {
