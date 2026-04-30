@@ -386,7 +386,9 @@
     var lightboxIndex = 0;
 
     function largeUrl(i) {
-      return 'https://picsum.photos/seed/g' + (i + 1) + '/1400/900';
+      var n = i + 1;
+      var suffix = n < 10 ? '0' + n : String(n);
+      return './images/proyectos/' + suffix + '.jpg';
     }
 
     function syncLightbox() {

@@ -51,7 +51,9 @@ body {
 }
 
 .navbar-sitio .navbar-toggler {
-  border-color: rgba(56, 91, 3, 0.35);
+  border: none;
+  box-shadow: none !important;
+  padding-right: 0;
 }
 
 .navbar-sitio .navbar-toggler-icon {
@@ -149,9 +151,13 @@ body {
     rgba(40, 45, 38, 0.55) 100%
   );
 }
-.container{
-  max-width: 70%;
+/* Ancho contenido centrado solo en pantallas grandes; en móvil el 70% dejaba márgenes laterales enormes */
+@media (min-width: 992px) {
+  .container {
+    max-width: 70%;
+  }
 }
+
 .seccion-acerca-hero .container {
   z-index: 1;
 }
@@ -272,7 +278,6 @@ body {
   width: 100%;
   aspect-ratio: 1 / 1;
   position: relative;
-  background-color: var(--color-crema);
   border-radius: 0.85rem 0.85rem 0 0;
   overflow: hidden;
   flex-shrink: 0;
@@ -414,6 +419,20 @@ section[id] {
   }
 }
 
+/* Móviles muy estrechos: ancho completo y un margen lateral mínimo (no pegado al borde) */
+@media (max-width: 389.98px) {
+  .container {
+    max-width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .carousel-proyectos-galeria {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 .galeria-img-cursor {
   cursor: pointer;
 }
@@ -541,3 +560,4 @@ section[id] {
 .card-opinion {
   background-color: var(--color-crema);
 }
+
